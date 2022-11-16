@@ -1,7 +1,6 @@
 {
   "name": "social-network",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,5 +11,15 @@
   "dependencies": {
     "express": "^4.18.2",
     "mongoose": "^6.7.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnrob112/social-network.git"
+  },
+  "bugs": {
+    "url": "https://github.com/johnrob112/social-network/issues"
+  },
+  "homepage": "https://github.com/johnrob112/social-network#readme",
+  "description": ""
 }
