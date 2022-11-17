@@ -33,3 +33,13 @@ const ReactionSchema = new Schema ({
         id: false
     }
 );
+
+ThoughtSchema.virtual('reactionNumbers').get(function (){
+    return this.reactions.length
+})
+
+//creating the though model based on the thought schema
+const Thought = model('Thought', ThoughtSchema)
+
+//export the thought model
+module.exports = Thought;
